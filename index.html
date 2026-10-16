@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#102f27">
+<title>Moonis & Samra — Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Karla:wght@300;400;500&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <linearGradient id="gGold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A77A29"/><stop offset=".5" stop-color="#F1DC9D"/><stop offset="1" stop-color="#A77A29"/></linearGradient>
+  <g id="star8"><circle cx="50" cy="50" r="47" fill="none" stroke="url(#gGold)" stroke-width="1.2"/><circle cx="50" cy="50" r="43" fill="none" stroke="url(#gGold)" stroke-width=".5" stroke-dasharray="1.5 2.5"/><path d="M50 5 L61 25 L83 17 L75 39 L95 50 L75 61 L83 83 L61 75 L50 95 L39 75 L17 83 L25 61 L5 50 L25 39 L17 17 L39 25 Z" fill="none" stroke="url(#gGold)" stroke-width="1.4" stroke-linejoin="round"/><path d="M50 18 L58 42 L82 50 L58 58 L50 82 L42 58 L18 50 L42 42 Z" fill="none" stroke="url(#gGold)" stroke-width=".8"/></g>
+  <symbol id="lantern" viewBox="0 0 60 150"><line x1="30" y1="0" x2="30" y2="30" stroke="#d5b25f" stroke-width="1.2"/><path d="M22 30 Q30 18 38 30 Z" fill="#c8a350"/><rect x="26" y="30" width="8" height="5" fill="#a67c2b"/><path d="M18 38 Q30 33 42 38 L48 82 Q30 96 12 82 Z" fill="#f1c85a" fill-opacity=".22" stroke="#d5b25f" stroke-width="1.3"/><path d="M30 36 L30 90 M24 37 L19 85 M36 37 L41 85" stroke="#d5b25f" stroke-width=".7" opacity=".8"/><ellipse class="lamp-glow" cx="30" cy="62" rx="8" ry="14" fill="#ffe29a"/><path d="M14 84 Q30 98 46 84 L42 96 Q30 104 18 96 Z" fill="#c8a350"/><path d="M30 104 L30 118 M26 118 L34 118 L30 132 Z" stroke="#d5b25f" fill="#d5b25f" stroke-width="1"/></symbol>
+</defs></svg>
+<div class="drift" id="drift" aria-hidden="true"></div>
+<div class="site-shell" id="shell">
+  <section class="cover" id="cover">
+    <div class="cover-pattern"></div><div class="cover-moon"></div>
+    <div class="cover-door door-l"><div class="door-arch"></div></div>
+    <div class="cover-door door-r"><div class="door-arch"></div></div>
+    <div class="seal-wrap">
+      <button class="seal" id="sealBtn" aria-label="Open invitation">
+        <span class="seal-shadow"></span>
+        <span class="seal-disc"><span class="seal-ring"></span><img src="images/bismillah4.png" alt="Bismillah calligraphy"><span class="seal-monogram">M <b>&amp;</b> S</span></span>
+      </button>
+      <div class="seal-copy"><span>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</span><small>touch the seal to open</small></div>
+    </div>
+    <div class="lantern lan-a"><svg viewBox="0 0 60 150"><use href="#lantern"/></svg></div><div class="lantern lan-b"><svg viewBox="0 0 60 150"><use href="#lantern"/></svg></div><div class="lantern lan-c"><svg viewBox="0 0 60 150"><use href="#lantern"/></svg></div>
+    <div class="cover-corner corner-a">۞</div><div class="cover-corner corner-b">۞</div>
+  </section>
+
+  <main class="invitation" id="invitation" aria-hidden="true">
+    <header class="floating-nav">
+      <button id="musicBtn" class="round-control" aria-label="Toggle music">♫</button>
+      <button id="menuBtn" class="round-control" aria-label="Open menu">☰</button>
+      <nav id="menu" class="menu">
+        <a href="#home">Home</a><a href="#date">Save the Date</a><a href="#couple">The Couple</a><a href="#events">Events</a><a href="#venues">Venues</a><a href="#rsvp">RSVP</a>
+      </nav>
+    </header>
+    <audio id="music" loop><source src="music.mp3" type="audio/mpeg"></audio>
+
+    <section id="home" class="hero section-light">
+      <div class="pattern-layer"></div>
+      <div class="lantern hl-a"><svg viewBox="0 0 60 150"><use href="#lantern"/></svg></div><div class="lantern hl-b"><svg viewBox="0 0 60 150"><use href="#lantern"/></svg></div>
+      <div class="arch-frame arch-svg-frame reveal">
+        <svg class="arch-border-svg" viewBox="0 0 430 760" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <linearGradient id="archGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#A77A29"/>
+              <stop offset="22%" stop-color="#D8B86C"/>
+              <stop offset="50%" stop-color="#F1DC9D"/>
+              <stop offset="78%" stop-color="#D8B86C"/>
+              <stop offset="100%" stop-color="#A77A29"/>
+            </linearGradient>
+          </defs>
+          <path class="arch-fill"
+                d="M6 755 L6 165 C6 95 140 35 215 8 C290 35 424 95 424 165 L424 755 Z"
+                fill="#fbf6e9" stroke="none"/>
+          <path class="arch-border-shadow"
+                d="M6 755 L6 165 C6 95 140 35 215 8 C290 35 424 95 424 165 L424 755 Z"
+                fill="none" stroke="#76551D" stroke-width="12" opacity=".14"
+                stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="arch-border"
+                d="M6 755 L6 165 C6 95 140 35 215 8 C290 35 424 95 424 165 L424 755 Z"
+                fill="none" stroke="url(#archGold)" stroke-width="8"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M20 745 L20 170 C20 108 148 54 215 30 C282 54 410 108 410 170 L410 745 Z" fill="none" stroke="url(#archGold)" stroke-width="1.2" opacity=".9"/>
+          <path d="M27 745 L27 172 C27 114 152 62 215 40 C278 62 403 114 403 172 L403 745 Z" fill="none" stroke="#c8a350" stroke-width=".7" stroke-dasharray="1.5 5" stroke-linecap="round" opacity=".8"/>
+          <g class="arch-finial"><circle cx="215" cy="8" r="9" fill="#fbf6e9" stroke="url(#archGold)" stroke-width="2"/><path d="M215 1 L217.5 6 L223 8 L217.5 10 L215 15 L212.5 10 L207 8 L212.5 6 Z" fill="#c8a350"/></g>
+        </svg>
+        <div class="arch-inner">
+        <p class="arabic-bismillah"><img src="images/bismillah4.png" alt="Bismillah"></p>
+        <p class="translation">In the name of Allah, the Most Gracious, the Most Merciful</p>
+        <div class="ornament"><i></i><span>۞</span><i></i></div>
+        <p class="family-line">With the blessings of our families</p>
+        <h1><span>Moonis</span><em>weds</em><span>Samra</span></h1>
+        <p class="invitation-line">Together with our families, we joyfully invite you <br>to share in the beginning of our new chapter.</p>
+        <div class="hero-date"><strong>07</strong><div><span>DECEMBER</span><small>2026 · MONDAY</small></div></div>
+        <a href="#date" class="gold-btn">EXPLORE THE INVITATION</a>
+      </div></div></div>
+    </section>
+
+    <section id="date" class="date-section section-deep">
+      <div class="islamic-border"></div><div class="date-rosette" aria-hidden="true"><svg viewBox="0 0 100 100"><use href="#star8"/></svg></div><div class="section-inner reveal">
+        <p class="kicker">SAVE THE DATE</p><div class="gold-star">✦</div>
+        <h2>Our beautiful<br><em>beginning</em></h2>
+        <p class="lead">A day written by Allah, celebrated with the people we hold closest to our hearts.</p>
+        <div class="date-medallion"><div class="medallion-top">MONDAY</div><div class="medallion-day">07</div><div class="medallion-month">DECEMBER · 2026</div></div>
+      </div>
+    </section>
+
+    <section class="count-section section-light">
+      <div class="section-inner reveal"><p class="kicker">UNTIL WE SAY QUBOOL</p><div class="crescent">☾</div><h2>The countdown</h2>
+        <div class="countdown"><div><strong id="days">00</strong><span>Days</span></div><div><strong id="hours">00</strong><span>Hours</span></div><div><strong id="mins">00</strong><span>Minutes</span></div><div><strong id="secs">00</strong><span>Seconds</span></div></div>
+      </div>
+    </section>
+
+    <section id="couple" class="couple-section section-rose">
+      <div class="rose-geo" aria-hidden="true"></div>
+      <div class="section-inner reveal"><p class="kicker">THE COUPLE</p><div class="ornament"><i></i><span>♡</span><i></i></div><h2>Two souls,<br><em>one beautiful journey</em></h2>
+        <div class="couple-stack">
+          <article class="person nameplate">
+            <svg class="star-seal" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"/></svg>
+            <div class="np-initial">M</div>
+            <div class="person-badge">THE GROOM</div>
+            <h3>Moonis Ali</h3>
+            <p>Son of<br><b>Rashid Ali &amp; Talat Fatma</b></p>
+          </article>
+          <div class="between"><i></i><span>وَ</span><small>with</small><i></i></div>
+          <article class="person nameplate">
+            <svg class="star-seal" viewBox="0 0 100 100" aria-hidden="true"><use href="#star8"/></svg>
+            <div class="np-initial">S</div>
+            <div class="person-badge">THE BRIDE</div>
+            <h3>Samra Rehman</h3>
+            <p>Daughter of<br><b>Ateeq-ur-Rehman &amp; Heena Shakeel Khan</b></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="events-section section-deep">
+      <div class="section-inner reveal"><p class="kicker">THE CELEBRATIONS</p><h2>Our wedding<br><em>festivities</em></h2><p class="lead">Three moments, three blessings, one unforgettable celebration.</p>
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          <article class="event-card left"><div class="event-number">01</div><div class="event-icon">☾</div><div class="event-copy"><span class="event-type">PRE-WEDDING</span><h3>Haldi</h3><p class="event-date">06 December 2026</p><p>Joy, colour, laughter and blessings as our families come together.</p></div></article>
+          <article class="event-card right"><div class="event-number">02</div><div class="event-icon">✦</div><div class="event-copy"><span class="event-type">THE WEDDING</span><h3>Baraat</h3><p class="event-date">07 December 2026</p><p>The day our two families become one, surrounded by love and dua.</p></div></article>
+          <article class="event-card left"><div class="event-number">03</div><div class="event-icon">✧</div><div class="event-copy"><span class="event-type">POST-WEDDING</span><h3>Reception</h3><p class="event-date">09 December 2026</p><p>An evening of gratitude, celebration and cherished memories.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="venues" class="venues-section section-light"><div class="section-inner reveal"><p class="kicker">WHERE TO JOIN US</p><h2>Our <em>venues</em></h2><div class="venue-grid">
+      <article class="venue"><div class="venue-top"><span>07</span><small>DEC</small></div><p class="venue-event">BARAAT</p><h3>ShantiDeep<br>Garden Resort</h3><p>Bulandshahar, Uttar Pradesh, India</p><a href="https://maps.app.goo.gl/8TG988tNntQSJjAo6" target="_blank" rel="noopener">VIEW ON MAPS ↗</a></article>
+      <article class="venue"><div class="venue-top"><span>09</span><small>DEC</small></div><p class="venue-event">RECEPTION</p><h3>Singh<br>Palace</h3><p>Seohara, Uttar Pradesh, India</p><a href="https://maps.app.goo.gl/cswfpRKP2D3yaQEP8" target="_blank" rel="noopener">VIEW ON MAPS ↗</a></article>
+    </div></div></section>
+
+    <section id="rsvp" class="rsvp-section section-rose"><div class="section-inner reveal"><div class="arabic-small">بَارَكَ ٱللَّهُ لَكُمَا</div><p class="kicker">KINDLY RESPOND</p><h2>Will you<br><em>join us?</em></h2><p class="lead">Your presence and prayers are the most precious gift.</p><div class="rsvp-buttons"><button id="yesBtn">Yes, with great pleasure</button><button id="noBtn">Unable to attend</button></div><p id="rsvpMsg" class="rsvp-msg"></p></div></section>
+
+    <footer class="footer section-deep"><svg class="skyline" viewBox="0 0 520 120" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><path fill="#0a231c" d="M0 120 V92 H30 V70 Q40 52 50 70 V92 H78 V60 L82 40 L86 60 V92 H120 V76 Q140 40 160 76 V92 H190 V50 Q200 28 210 50 V92 H236 V84 Q260 10 284 84 V92 H310 V50 Q320 28 330 50 V92 H360 V76 Q380 40 400 76 V92 H434 V60 L438 40 L442 60 V92 H470 V70 Q480 52 490 70 V92 H520 V120 Z"/><path fill="none" stroke="#d5b25f" stroke-opacity=".5" d="M0 92 H520"/><g fill="#e1c477"><circle cx="82" cy="36" r="2"/><circle cx="260" cy="4" r="2.6"/><circle cx="438" cy="36" r="2"/></g></svg><div class="section-inner reveal"><img src="images/bismillah4.png" class="footer-bismillah" alt="Bismillah"><div class="ornament"><i></i><span>۞</span><i></i></div><p class="dua" dir="rtl">بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p><p class="dua-en">May Allah bless you both, bless your union, and bring you together in goodness.</p><h2>Moonis <span>&amp;</span> Samra</h2><p>07 · December · 2026</p><div class="footer-line">WITH LOVE &amp; BLESSINGS</div></div></footer>
+  </main>
+</div>
+<script src="script.js"></script>
+</body></html>
